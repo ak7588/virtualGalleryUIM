@@ -1,0 +1,114 @@
+@font-face{
+  font-family: myFont;
+  src: url("../fonts/Lato-ThinItalic.ttf");
+}
+
+body{
+  background-color: #e2ebdd;
+  color: black;
+}
+.container{
+  position: relative;
+  height: 600px;
+}
+#div1{
+  height: 700px;
+  max-width: 600px;
+}
+
+div h1{
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+#div1 p{
+  position: absolute;
+  overflow-wrap: break-word;
+  left: 100px;
+  font-family: myFont;
+}
+
+#frog1{
+  position: absolute;
+  width: 700px;
+  top: 60px;
+  left: 600px;
+}
+#namedate{
+  top: 250px;
+
+}
+#material{
+  top: 275px;
+}
+
+
+#frog2{
+  position: absolute;
+  width: 500px;
+  top: 60px;
+  left: 100px;
+}
+div h2{
+  position: absolute;
+  top: 20px;
+  right: 500px;
+}
+#subtitle1{
+  font-family: myFont;
+  position: absolute;
+  overflow-wrap: break-word;
+  top: 90px;
+  left: 800px;
+  margin-right: 40px;
+}
+
+#description1{
+  position: absolute;
+  overflow-wrap: break-word;
+  top: 160px;
+  left: 800px;
+  margin-right: 40px;
+}
+
+
+
+#frog3{
+  position: absolute;
+  height: 400px;
+  top: 90px;
+  left: 900px;
+}
+#div3 h2{
+  left: 50px;
+
+}
+
+
+#subtitle2{
+  font-family: myFont;
+  position: absolute;
+  overflow-wrap: break-word;
+  top: 90px;
+  left: 80px;
+  margin-right: 20px;
+}
+#description2{
+  position: absolute;
+  max-width: 600px;
+  overflow-wrap: break-word;
+  top: 120px;
+  left: 80px;
+  margin-right: 20px;
+}
+
+#div3 a{
+  color: #32521f;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+#bio{
+  font-family: myFont;
+  font-size: 15px;
+}

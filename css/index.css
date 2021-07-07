@@ -1,0 +1,55 @@
+body {
+  background-image: url('../images/room.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 1500px;
+}
+
+#main{
+  
+  margin: auto;
+  width: 801px;
+  height: 500px;
+  position: relative;
+  top: 60px;
+}
+#map{
+  width: 801px;
+  height: 500px;
+  position: absolute;
+}
+
+.icon{
+  width: 10%;
+  height: auto;
+  filter: grayscale(100%);
+}
+.icon:hover{
+  filter: grayscale(0);
+}
+#bed{
+  position: absolute;
+  top: 360px;
+  right: 70px;
+}
+#cctv{
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+#virus{
+  position: absolute;
+  top: 150px;
+  left: 380px;
+}
+#frog{
+  position: absolute;
+  top: 360px;
+  left: 140px;
+}
+#toilet{
+  position: absolute;
+  top: 360px;
+  left: 380px;
+}
